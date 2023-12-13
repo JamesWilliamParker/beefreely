@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Homes Store Locator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="storelocator.html">Store Locator</a></li>
+      <li><a href="resultsflickr.html">Flickr</a></li>
+    </ul>
+  </nav>
+  <h1>Smart Homes Store Locator</h1>
+  <label for="radius">Search Radius (in miles):</label>
+  <input type="number" id="radius" min="1" placeholder="Enter radius" />
+  <button onclick="submitSearch()">Submit</button>
+  <div id="map"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6GptxgqmfObQrMTB3UfLoc40fi54bmKE&libraries=places"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

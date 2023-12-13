@@ -1,0 +1,14 @@
+{
+    "name": "james/www",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "james"
+        }
+    ],
+    "require": {
+        "facebook/graph-sdk": "^5.7",
+        "pear/http_request2": "^2.5"
+    }
+}

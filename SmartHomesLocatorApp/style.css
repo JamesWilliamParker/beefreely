@@ -1,0 +1,55 @@
+/* Applies styles to the entire body of the HTML document */
+body {
+  font-family: Arial, sans-serif; /* Sets the font family for the body text */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+/* Styles for an element with the ID 'app' */
+#app {
+  max-width: 600px; /* Sets the maximum width of the element to 600 pixels */
+  margin: 50px auto; /* Sets top and bottom margin to 50 pixels and left-right margin to auto (centering horizontally) */
+  text-align: center; /* Centers the text inside the element horizontally */
+}
+
+/* Styles for input and button elements */
+input,
+button {
+  margin: 10px; /* Adds margin around input and button elements */
+  padding: 5px; /* Adds padding around input and button elements */
+}
+
+/* Styles for an element with the ID 'map' */
+#map {
+  height: 400px; /* Sets the height of the element to 400 pixels */
+  margin: 20px 0; /* Adds margin above and below the element */
+}
+
+/* Add this style to your existing stylesheet or create a new one */
+nav {
+  background-color: #333; /* Set background color for the navigation bar */
+}
+
+ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left; /* Make list items float horizontally */
+}
+
+a {
+  display: block; /* Make links behave like block elements */
+  color: white; /* Set link text color */
+  text-align: center; /* Center the text within the link */
+  padding: 14px 16px; /* Add padding to the links for better spacing */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Change link color on hover */
+a:hover {
+  background-color: #111;
+}

@@ -1,0 +1,9 @@
+table {
+  width: 100%;
+  max-width: 800px;
+}
+
+.w100 {
+  width: 100%;
+  min-width: 400px;
+}
